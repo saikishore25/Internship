@@ -1,0 +1,573 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Oswald:wght@200..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    /* font-family: "Assistant", sans-serif; */
+    font-family: "Radio Canada Big", sans-serif;
+    color: black;
+    box-sizing: border-box;
+
+}
+
+
+.main-container{
+
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+
+}
+
+
+.monica-title{
+
+    background-color: #ececee;
+    height: 100vh;
+    width: 17vw;
+    /* padding: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.tit{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin: 30px 0px 0px 0px;
+    
+
+}
+
+.tit p{
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.monica-title select{
+
+    
+    width:80%;
+    padding: 8px 30px 8px 10px;
+    border-radius: 15px;
+    background-color: #dbdbde;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.monica-title select option{
+    
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.varieties{
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    
+}
+
+
+.var1{
+    
+    
+    cursor: pointer;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 15px;
+    width: 100%;
+    gap: 10px;
+
+}
+
+
+
+
+.var1 svg{
+
+    height: 25px;
+    width: 25px;
+    fill: black;
+}
+
+.var1:hover{
+    
+    background-color: #f4f4f5;
+    
+}
+
+.var1:active{
+    
+    background-color: #ffffff;
+}
+
+
+.dummy{
+    
+    height: 50vh;
+    
+}
+
+.foot-tit{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.ai-options{
+    
+    
+    height: 100vh;
+    width: 17vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1%;
+    
+    
+}
+
+.ai-search{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:5px;
+    border: 1px solid grey;
+    border-radius:15px ;
+    margin-top: 10%;
+    width: 90%;
+    padding: 10px 10px;
+    background-color: #e4e4e5;
+    
+}
+
+.ai-search input{
+    
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+
+}
+
+.optart{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10%;
+    width:90%;
+    
+    
+}
+
+
+
+
+.opt{
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 90%;
+
+}
+
+.opt:hover{
+
+    background-color: #e8e8ea;
+    cursor: pointer;
+
+}
+.opt img{
+
+    height: 25px;
+    width: 25px;
+
+}
+
+.opt p{
+
+    font-weight: 700;
+}
+
+
+
+
+.more{
+    
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    margin-left:7%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+.line1{
+
+    background-color: #dbdbde;
+    height: 100vh;
+    width: 1px;
+    
+
+}
+
+
+.chat-gpt{
+
+    /* display: none; */
+    align-items: center;
+    flex-direction: column;
+    height: 97vh;
+    width: 65vw;
+    margin: 1%;
+    overflow: auto;
+    padding: 1%;
+}
+
+.gpt-top1{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+
+}
+
+.title-gpt{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 800;
+
+}
+
+.share-gpt{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.share{
+    
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 2px;
+
+
+
+}
+
+.gpt-top2{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 2%;
+    width: 100%;
+
+}
+
+.gpt-top2 img{
+
+    border-radius: 50%;
+
+}
+
+.gpt-top4{
+
+    border: 2px solid #dbdbde ;
+    width: 55%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 15%;
+    border-radius: 15px ;
+    position: fixed;
+    bottom:5px; 
+    background-color: white;
+    
+
+}
+
+.conti{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.gpt-top4:hover{
+
+    border: 2px solid #6640e6;
+}
+
+.search-gpt{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 1%;
+    height: 20%;
+    /* position: fixed; */
+
+}
+
+.search-gpt input{
+
+    border: 0px;
+    outline: 0px;
+    width: 90%;
+}
+
+
+.gpt-top3{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 70%;
+    margin: 1%;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    gap: 8px;
+
+}
+
+
+.extra-gpt{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 100%; */
+    gap: 8px;
+    margin: 0.5% 1%;
+}
+
+.user-message {
+    /* text-align: right; */
+    margin-left: 70%;
+    background-color: #272626; /* User message background color */
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: fit-content;
+    color: white;
+    position: relative;
+    width: 20%;
+    left: 5%;
+    
+}
+
+.assistant-message {
+    text-align: left;
+    background-color: #272626; /* Assistant message background color */
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: fit-content;
+    position: relative;
+    width: 30%;
+    right: 31%;
+    color: white;
+}
+
+
+.dummy{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 3%;
+    width: 90%;
+}
+
+.chat-gpt::-webkit-scrollbar {
+width: 12px; /* Width of the scrollbar */
+}
+
+.chat-gpt::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+.chat-gpt::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+}
+
+.chat-gpt::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+
+.chatgpt-history{
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    height: 70%;
+    overflow: auto;
+    padding-top: 10px;
+    margin-top: 10%;
+    
+}
+
+.chatgpt-history::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chatgpt-history::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.chatgpt-history::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+.chatgpt-history::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.chatgpt-history >p{
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.chat-gpt-div{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #edebeb;
+    width: 90%;
+    height: 8%;
+    border-radius: 10px;
+    padding: 5px 8px;
+    gap: 10px;
+    cursor: pointer;
+    overflow: ;
+    
+}
+
+.chat-gpt-div:hover{
+    
+    background-color: rgb(221, 205, 205);
+}
+
+.chat-gpt-div p{
+
+    color: black;
+}
+
+@media only screen and (max-width: 1400px){
+
+    .monica-title{
+
+        display: none;
+
+    }
+
+    .ai-options{
+
+        width: 20%;
+    }
+    .gpt-top3{
+
+        bottom: 15%;
+        right: 13%;
+    }
+
+    .chat-gpt{
+
+        width: 80%;
+    }
+
+    .user-message{
+
+
+        left: 0%;
+    }
+
+    .assistant-message{
+
+
+
+    }
+
+
+}

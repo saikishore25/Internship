@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    font-family: "Assistant", sans-serif;
+    color: black;
+    box-sizing: border-box;
+
+}
+
+
+.main-container{
+
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+
+}
+
+
+.monica-title{
+
+    background-color: #ececee;
+    height: 100vh;
+    width: 17vw;
+    /* padding: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.tit{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin: 25px 0px 0px 0px;
+    
+
+}
+
+.tit p{
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.monica-title select{
+
+    
+    width:80%;
+    padding: 8px 30px 8px 10px;
+    border-radius: 15px;
+    background-color: #dbdbde;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.monica-title select option{
+    
+    font-size: 16px;
+    font-weight: 700;
+}
+.varieties{
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+.var1{
+    
+    
+    cursor: pointer;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 15px;
+    width: 100%;
+    gap: 10px;
+}
+
+
+.var1 svg{
+
+    height: 25px;
+    width: 25px;
+    fill: black;
+}
+
+.var1:hover{
+    
+    background-color: #f4f4f5;
+    
+}
+
+.var1:active{
+    
+    background-color: #ffffff;
+}
+
+
+.dummy{
+    
+    height: 50vh;
+    
+}
+
+.foot-tit{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.ai-options{
+    
+    
+    height: 100vh;
+    width: 17vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 1% 0px 1%;
+    
+    
+}
+
+.ai-search{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:5px;
+    border: 1px solid grey;
+    border-radius:15px ;
+    margin-top: 10%;
+    width: 90%;
+    padding: 10px 10px;
+    background-color: #e4e4e5;
+    
+}
+
+.ai-search input{
+    
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+
+}
+
+.optart{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10%;
+    width:80%;
+    
+    
+}
+
+
+.opt5, .opt6, .opt7{
+    
+    display: none;
+    
+}
+
+.opt{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.opt:hover{
+
+    background-color: #e8e8ea;
+    cursor: pointer;
+
+}
+.opt img{
+
+    height: 25px;
+    width: 25px;
+
+}
+
+.opt p{
+
+    font-weight: 700;
+}
+
+
+
+
+.more{
+    
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    margin-left:7%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+.line1{
+
+    background-color: #dbdbde;
+    height: 100vh;
+    width: 1px;
+    
+
+}
+
+
+
+.chat-gemini{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 97vh;
+    width: 65vw;
+    margin: 1%;
+    overflow: auto;
+    padding: 1%;
+}
+
+.gemini-top1{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-top: 2%; */
+
+}
+
+.title-gemini{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 800;
+
+}
+
+.share-gemini{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.share{
+    
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 2px;
+
+
+
+}
+
+.gemini-top2{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 2%;
+    width: 100%;
+
+}
+
+.gemini-top2 img{
+
+    border-radius: 50%;
+
+}
+
+.gemini-top4{
+
+    border: 2px solid #dbdbde ;
+    width: 55%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    height: 15%;
+    border-radius: 15px ;
+    position: fixed;
+    bottom:5px; 
+    background-color: white;
+
+}
+
+
+.gemini-top4:hover{
+
+    border: 2px solid #6640e6;
+}
+
+.search-gemini{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.search-gemini input{
+
+    border: 0px;
+    outline: 0px;
+    width: 90%;
+}
+
+
+.gemini-top3{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 70%;
+    margin: 1%;
+    position: fixed;
+    /* position: fixed; */
+    bottom: 15%;
+    right: 5%;
+    gap: 8px;
+
+}
+
+.extra-gemini{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 100%; */
+    gap: 8px;
+    margin: 0.5% 1%;
+}
+
+.user-message {
+    /* text-align: right; */
+    margin-left: 70%;
+    background-color: #272626; /* User message background color */
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: fit-content;
+    color: white;
+    position: relative;
+    width: 20%;
+    left: 5%;
+    
+}
+
+.assistant-message {
+    text-align: left;
+    background-color: #272626; /* Assistant message background color */
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: fit-content;
+    position: relative;
+    width: 30%;
+    right: 35%;
+    color: white;
+}
+
+
+.dummy{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 3%;
+    width: 90%;
+}
+
+.chat-gemini::-webkit-scrollbar {
+width: 12px; /* Width of the scrollbar */
+}
+
+.chat-gemini::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+.chat-gemini::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+}
+
+.chat-gemini::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+
+.gemini-history{
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    height: 70%;
+    overflow: auto;
+    margin-top: 10%;
+
+}
+
+.gemini-history::-webkit-scrollbar {
+    width: 12px;
+}
+
+.gemini-history::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.gemini-history::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+.gemini-history::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.gemini-history >p{
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.chat-gemini-div{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #edebeb;
+    width: 90%;
+    height: 8%;
+    border-radius: 10px;
+    padding: 5px 8px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.chat-gemini-div:hover{
+
+    background-color: rgb(221, 205, 205);
+}
+
+.chat-gemini-div p{
+
+    color: black;
+}
+
+
+@media only screen and (max-width: 1400px){
+
+    .monica-title{
+
+        display: none;
+
+    }
+
+    .ai-options{
+
+        width: 20%;
+    }
+
+    .gemini-top3{
+
+        bottom: 15%;
+        right: 17%;
+    }
+
+    .chat-gemini{
+
+        width: 80%;
+    }
+
+    /* .user-message{
+
+
+        left: 0%;
+    }
+
+    .assistant-message{
+
+
+
+    } */
+
+
+}
